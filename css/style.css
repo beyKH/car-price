@@ -1,0 +1,138 @@
+/* fonts Lexend Deca 400 Big Shoulders Display 700 */
+
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body{
+  background-color: #f2f2f2;
+  font-family: 'Lexend Deca','Arial',sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+  color:#fff;
+}
+.section-dry{
+
+  margin-top: 100px;
+
+}
+.container{
+  max-width: 920px;
+  margin:0 auto;
+
+}
+
+.cards{
+  display: flex;
+}
+
+.card-item{
+  border-radius: 8px;
+  width: 307px;
+  height: 500px;
+  padding: 48px;
+
+
+}
+
+.card-item img{
+  margin-bottom: 35px;
+}
+.card-item h2{
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: uppercase;
+  /* letter-spacing: -2px; */
+  color: #f2f2f2;
+  font-family: 'Big Shoulders Display',cursive;
+}
+.card-item p{
+  margin-top: 0;
+  margin-bottom: 94px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.card-item a{
+  text-decoration: none;
+  background: #fff;
+  border-radius: 25px;
+  padding: 12px 32px;
+  border: 2px solid transparent;
+  transition: background-color 0.4s ease, color 0.4s ease, border 0.4s ease,
+  opacity 0.4s ease;
+
+
+}
+
+.card-item a:hover{
+  border: 2px solid white;
+  color:#fff;
+  cursor: pointer;
+
+}
+
+.card-item a:active{
+  opacity: 0.4;
+}
+
+
+.item-orange{
+  background: #E28625;
+}
+
+.item-orange a{
+  color:#E28625;
+}
+.item-orange a:hover {
+  background-color: #E28625;
+
+}
+.card-item a:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px rgb(116, 104, 104);
+
+}
+.item-green{
+  background-color: #006971;
+}
+
+.item-green a{
+  color: #006971;
+}
+
+.item-green a:hover{
+  border:2px solid white;
+  color: white;
+  background-color: #006971;
+
+}
+
+
+.item-dark-green{
+  background-color: #004140;
+
+}
+.item-dark-green a{
+  color: #004140;
+}
+.item-dark-green a:hover{
+  background-color: #004140;
+
+}
